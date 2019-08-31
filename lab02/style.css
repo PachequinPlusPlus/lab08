@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h2 {
+	color: #CCA43B;
+}
+.personalInfo{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.references{
+	display: flex;
+	width: 350px;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0px;
+	padding: 0px;
+}
+.studies{
+	margin: 0px 40px;
+	padding: 2px;
+}
+.experienceRow{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.experienceRow #fbLogo {
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+}
+.experienceRow #msLogo{
+	margin: 10px;
+	height: 50px;
+	width: 100px;
+}
+ul li{
+	margin: 0px 20px;
+	list-style-type: none;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+}
+.award{
+	margin: 0px 40px;
+}
+.activities{
+	margin: 0px 40px;
+}
